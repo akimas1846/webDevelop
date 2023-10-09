@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="styles/style.css" rel="stylesheet" />
+  <link rel="icon" href="data:,">
+  <title>ダークソウルシリーズ紹介ページ</title>
+</head>
+
+<body>
+  
+  <h1>DarkSoulsシリーズ</h1>
+  <p id= "name"></p>
+  <h2> DarkSoulsシリーズとは</h2>
+  <p>FromSoftwareが作成したビデオゲームであり、<br>
+    「DarkSouls」「DarkSoulsII」「DarkSoulsIII」の三部作となっている。
+  </p>
+  <h3>各ゲームの内容</h3>
+
+  <p>作品ごとに設定や世界観が変わるが、一貫しているのは、「すぐに死ぬ」「高難易度」「死んだらその場に経験値及び通貨をその場に落とす」の三つの点だといえる。</p>
+  <h4>DarkSouls</h4>
+  <img id="darksouls" src="image/darksouls1-0.jpg" alt="DarkSouls1" width=300 height=auto onclick="change1()" />
+  <p>※画像をクリックして変更</p>
+  <p>「DarkSouls」では、神々が納める土地、ロードランにて、不死の呪いが蔓延し、不死の呪いにかかった不死人が自身の運命に則って冒険する物語である。
+    <br><a href="https://www.darksouls.jp/detail_dsr.html" target="_blank">DarkSouls製品情報</a>
+  </p>
+  
+
+  <h4>DarkSoulsII</h4>
+  <img id="darksouls2" src="image/darksouls2-0.jpg" alt="DarkSouls2" width=300 height=auto onclick="change2()" />
+  <p>※画像をクリックして変更</p>
+  <p>「DarkSoulsII」は、かつての王、ヴァンクラットが治めた、ドランググレイグにて、自分にかかった不死の呪いを解こうとする物語である。
+    <br><a href="https://www.darksouls.jp/detail_ds2_sotfs.html"target="_blank">DarkSouls2製品情報</a>
+  </p>
+
+  <h4>DarkSoulsIII</h4>
+  <img id="darksouls3" src="image/darksouls3-0.jpg" alt="DarkSouls3" width=300 height=auto onclick="change3()" />
+  <p>※画像をクリックして変更</p>
+  <p>「DarkSoulsIII」は、火継ぎのために目覚めた薪の王たちを倒し、自身が火を継ごうとする物語である。
+    <br><a href="https://www.darksouls.jp/detail_ds3_tffe.html"target="_blank">DarkSouls3製品情報</a>
+  </p>
+
+
+  <p>名も無き不死人及び灰の人の皆様、よろしければ名前の方を入力してみてください。<br>(入力するとページ先頭の名前が変わります。)</p>
+  <label>名前：<input type="text" id="nameText"></label>
+  <input type="button" value="変更" id="checkButton">
+  <p id="msg"></p>
+  
+  <script src="scripts/main.js"></script>
+
+
+</body>
+
+</html>
